@@ -10,7 +10,7 @@ public class ZipCode {
 	public static void main(String[] args) throws IOException {
 		String path = "D:/dev/java/PrjIO/src/ex04/";
 		
-		String filename = "zipcode_20130201(1).csv";
+		String filename = "zipcode_utf8.csv";
 		FileReader fr = new FileReader(path + filename);
 		BufferedReader br = new BufferedReader(fr);
 		
