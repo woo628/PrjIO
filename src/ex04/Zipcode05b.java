@@ -32,7 +32,6 @@ public class Zipcode05b {
 		String prevSido = "";
 		
 		int sidoCnt = 0; // 시도별 주소수
-
 		int pos = -1;	// 전체시도수 포지션
 		
 		while ((line = br.readLine()) != null) {
