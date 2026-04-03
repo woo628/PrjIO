@@ -45,7 +45,7 @@ public class Zipcode07 {
 			if (sido.contains("부산") && gugun.contains("진구")) {
 				
 				
-				String msg = String.format("\n"+zipcode);	
+				String msg = String.format("\n"+ line);	
 				bw.write(msg); 			
 			} 
 			

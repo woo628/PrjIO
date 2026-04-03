@@ -29,7 +29,7 @@ public class Zipcode06 {
 			PostVo vo = new PostVo(line);
 			String dong = vo.getDong();
 			if (dong.contains("부전2동")) {
-				System.out.println("부전2동의 우편주소: " +vo.getZipcode());
+				System.out.println("부전2동의 우편주소: " + vo);
 			}
 		}
 	
